@@ -1,63 +1,33 @@
-# WebMart – Clothing E-Commerce Website
+# WebMart
 
-## Team Members
+A clothing e-commerce website built with Angular and a Node.js backend. Customers can browse products, search and filter items, manage their cart and place orders. An admin dashboard supports product and order management.
 
-| Name | Role |
-|-----|-----|
-| Mohamed Ahmed Mohamed Mohamed (Ghareb) | UI/UX Designer, Full Stack Developer (Team Leader) |
-| Abdallah Alhusain Kaml Mohamed | Frontend Developer |
-| Bassant Mahmoud Mohamed Mahmoud | Frontend Developer |
-| Youssef Mohamed Seifallah Mohamed | Frontend Developer |
-| Asmaa Hassan Mohammed Hassanin | Frontend Developer |
-| Nour Haitham Omar Mohamed | Full Stack Developer |
+## My contribution
 
----
+Team leader, UI/UX designer and full-stack developer. I worked on the Figma design and the web application with the team credited below.
 
-## Project Overview
+## Tech stack
 
-**WebMart** is an e-commerce website for selling clothing online.
+Angular, TypeScript, Bootstrap, Node.js, Express, MongoDB and Mongoose.
 
-The platform allows users to browse clothing products, view detailed information, and purchase items easily.  
-The goal of this project is to provide a simple and comfortable online shopping experience.
+## Run locally
 
-Users can explore multiple clothing categories such as:
+```bash
+git clone https://github.com/Mo7amedghareb/WebMart-Angular.git
+cd WebMart-Angular/WebMart_Project/WebMart
+npm install
+npm start
+```
 
-- Men's clothing
-- Women's clothing
-- Accessories
+Open `http://localhost:4200`. API features require the [WebMart backend](https://github.com/Mo7amedghareb/WebMart-backend-nodejs), which the frontend currently expects at `http://localhost:5000/api`.
 
-They can also search for products using a search bar and filter items by category, price, or type.
+## Team
 
-The system includes a **shopping cart** and a **checkout process** for completing orders.
-
-Additionally, the website provides an **admin panel** that allows administrators to:
-
-- Add new products
-- Edit product information
-- Manage customer orders
-
----
-
-## Main Features
-
-- Browse clothing products
-- Search for products
-- Filter products by category or price
-- View product details
-- Add products to shopping cart
-- Checkout and place orders
-- Admin dashboard for product and order management
-
----
-
-## Technologies Used
-
-| Technology | Usage |
-|-----------|------|
-| Figma | UI/UX Design |
-| Angular | Frontend Development |
-| Node.js, Express.js | Backend Development |
-| Mongodb, Mongose ODM | Database |
-| Git & GitHub | Version Control |
-
----
+| Contributor | Role |
+| --- | --- |
+| Mohamed Ahmed Mohamed Mohamed (Ghareb) | Team leader, UI/UX designer, full-stack developer |
+| Abdallah Alhusain Kaml Mohamed | Frontend developer |
+| Bassant Mahmoud Mohamed Mahmoud | Frontend developer |
+| Youssef Mohamed Seifallah Mohamed | Frontend developer |
+| Asmaa Hassan Mohammed Hassanin | Frontend developer |
+| Nour Haitham Omar Mohamed | Full-stack developer |
